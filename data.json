@@ -5,8 +5,8 @@
            "project_name": "Random Quote Generator",
            "description": "Gained knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, which is a program that displays a randomly selected quote each time the user clicks a button",
            "technologies": ["Vanilla Javascript"],
-           "live_link": "https://tpo-ercollie.github.io/tpo-ercollie-project-01/" ,
-           "github_link": ,
+           "live_link": "https://tpo-ercollie.github.io/random-quote-generator-01/" ,
+           "github_link": "https://github.com/tpo-ercollie/random-quote-generator-01" ,
            "image_urls": ,
 
        },
