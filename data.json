@@ -1,0 +1,53 @@
+{ 
+    "projects": [
+       { 
+           "id": 0,
+           "project_name": "Random Quote Generator",
+           "description": "Gained knowledge of basic JavaScript syntax and data structures by building a Random Quote Generator, which is a program that displays a randomly selected quote each time the user clicks a button",
+           "technologies": ["Vanilla Javascript"],
+           "live_link": "https://tpo-ercollie.github.io/tpo-ercollie-project-01/" ,
+           "github_link": ,
+           "image_urls": ,
+
+       },
+       { 
+           "id": 1,
+           "project_name": "Data Pagination and Filtering" ,
+           "description": "Wrote JavaScript to display several “pages” of student data that the user can easily navigate and view.",
+           "technologies": ["Vanilla Javascript", "specifically making call functions", "the ability to call back to the DOM"],
+            "live_link": ,
+            "github_link": ,
+            "image_urls": ,
+       },
+       {  
+           "id": 2,
+           "project_name": "Interactive Form",
+           "description": "Used my skills to enhance a form so that it’s engaging, interactive, and easy to use.",
+           "technologies": ["Vanilla Javascript", "interactive forms using focus and blue listeners", "incorporated functions that aid in accessibility"],
+           "live_link": ,
+           "github_link": ,
+           "image_urls": ,
+       },
+       {
+           "id": 3,
+           "project_name": "OOP Game Show App",
+           "description": "Created a browser-based, word guessing game called Phrase Hunter. I used JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase where a player has so many tries to guess the phrase by selecting individual letters from an onscreen keyboard.",
+           "technologies": ["Vanillia Javascript", "Object Oriented Programming", "instantiating classes and using class constructors"],
+           "live_link": ,
+           "github_link": ,
+           "image_urls": ,
+       },
+       {
+           "id": 4,
+           "project_name": "Public API Requests",
+           "description": "Using JavaScript, I created an employee directory by communicating with a third-party API (Application Programming Interface).",
+           "technologies": ["Asynchronous Programming with JS, Fetch API", "AJAX", "the ability to enter/exit from a modal window"],
+           "live_link": ,
+           "github_link": ,
+           "image_urls": ,
+
+       },
+ 
+    ]
+
+}
