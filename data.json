@@ -7,7 +7,7 @@
            "technologies": ["Vanilla Javascript"],
            "live_link": "https://tpo-ercollie.github.io/random-quote-generator-01/" ,
            "github_link": "https://github.com/tpo-ercollie/random-quote-generator-01" ,
-           "image_urls": ["/static/images/project1-1.png","/static/images/project1-2.png"]
+           "image_urls": ["/static/images/project1-1.jpg","/static/images/project1-2.png"]
 
        },
        { 
@@ -17,7 +17,7 @@
            "technologies": ["Vanilla Javascript", "call functions", "DOM"],
             "live_link": "https://tpo-ercollie.github.io/data-pagination-and-filtering-02/",
             "github_link": "https://github.com/tpo-ercollie/data-pagination-and-filtering-02",
-            "image_urls": ["/static/images/project2-1.png","/static/images/project2-2.png"]
+            "image_urls": ["/static/images/project2-1.jpg","/static/images/project2-2.png"]
        },
        {  
            "id": 2,
@@ -26,7 +26,7 @@
            "technologies": ["Vanilla Javascript", "interactive forms using focus and blue listeners", "incorporated functions that aid in accessibility"],
            "live_link": "https://tpo-ercollie.github.io/interactive-form-03/",
            "github_link": "https://github.com/tpo-ercollie/interactive-form-03" ,
-           "image_urls": ["/static/images/project3-1.png","/static/images/project3-2.png"]
+           "image_urls": ["/static/images/project3-1.jpg","/static/images/project3-2.png"]
        },
        {
            "id": 3,
@@ -35,7 +35,7 @@
            "technologies": ["Vanillia Javascript", "Object Oriented Programming", "instantiating classes and using class constructors"],
            "live_link": "https://tpo-ercollie.github.io/oop-game-show-app-04/",
            "github_link": "https://github.com/tpo-ercollie/oop-game-show-app-04" ,
-           "image_urls": ["/static/images/project4-1.png","/static/images/project4-2.png"]
+           "image_urls": ["/static/images/project4-1.jpg","/static/images/project4-2.png"]
        },
        {
            "id": 4,
@@ -44,7 +44,7 @@
            "technologies": ["Asynchronous Programming with JS, Fetch API", "AJAX", "the ability to enter/exit from a modal window"],
            "live_link": "https://tpo-ercollie.github.io/public-api-requests-05/",
            "github_link": "https://github.com/tpo-ercollie/public-api-requests-05",
-           "image_urls": ["/static/images/project5-1.png","/static/images/project5-2.png"] 
+           "image_urls": ["/static/images/project5-1.jpg","/static/images/project5-2.png"] 
 
        }
  
