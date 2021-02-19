@@ -16,8 +16,7 @@ app.use('/static', express.static('public')); // express.static is a piece of mi
 
 /* /Routes */
 
-// index route
-// getting all data.json info, locals set to data.projects
+// index route: getting all data.json info, locals set to data.projects
 app.get('/', function (req, res, next) {
   // passing all project data to index pug template
   res.render('index', { projects });
@@ -29,24 +28,42 @@ app.get('/about', function (req, res) {
 });
 
 // sent all available data for projects to project pug template
-app.get('/projects/:id', function (req, res, next) {
-  const projectId = projects[req.params.id - 1]; // minus one because the data.json array is 0 based
-  const project = projects.find(({ id }) => id === +projectId);
+app.get('/projects/:id', function (req, res, next) { // ':id" is a placeholder
+  const projectId = parseInt(req.params.id);
+  const project = projects[projectId];
 
   if (project) {
+    console.log(project);
     res.render('project', { project });
   } else {
-    res.sendStatus(404);
+    next();
   }
 });
 
-// /////Erorrs
+/* Handle Errors */
 
-// Import 404 and global error handlers
+// 404 handler to catch any underfined or non-existent route requests
+app.use((req, res, next) => {
+  console.log('404 error handler called');
+  const err = new Error();
+  err.status = 404;
+  err.message = "Sorry, the project you're looking for doesn't exist.";
+  next(err);
+});
 
-// Pass route handlers to the app
+// Global error handler
+app.use((err, req, res, next) => {
+  if (err) { // checking for the err status
+    console.log('Global error handler called', err);
+  }
 
-// Pass 404 and global error handlers to the app
+  if (err.status === 404) {
+    res.status(404).render('not-found', { err });
+  } else {
+    err.message = err.message || "Oh no, something isn't here";
+    res.status(err.status || 500).render('error', { err });
+  }
+});
 
 // Activate the port, set up the listen function to start the server
 app.listen(3000, function () {
@@ -56,5 +73,3 @@ app.listen(3000, function () {
 // app.get('/layout', function (req, res) {
 //     res.render('layout')
 //   })
-
-
