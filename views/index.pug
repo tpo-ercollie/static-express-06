@@ -3,34 +3,15 @@ extends layout.pug
 block content
 
   article.portfolio-intro
-
-    //- my heading
     h1 Introducing: Erica Collier
-
-    //- description of portfolio
     p Welcome! Thank you for being present here in the space I've defined to display my accomplishments as a trainee in a technology bootcamp. 
 
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
-
-      //- Use the Pug `each` iterator to loop over the projects in your data file
       each project in projects
-        //- 2. Render the `href` attribute using the project ID
-        //- a(href=`/projects/${project.id}`)
-        //-   //- 3. Dynamically display the project name
-        //-   h2= project.project_name
-        //-   //- 4. Dynamically render the `src` attribute using the `image_url` property
-        //-   img(src=`${project.image_url}` width='550' height='550')
-      
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
-
         .cell
           a(href=`/projects/${project.id}`)
-            //- img.thumbnail(src='https://placehold.it/550x550', alt='')
-            img.thumbnail(src=`${project.image_urls[0]}` alt=`Thumbnail${project.project_name}`)
+            img.thumbnail(src=`${project.image_urls[0]}`, alt=`Thumbnail ${project.project_name}`)
             h5= project.project_name
 
