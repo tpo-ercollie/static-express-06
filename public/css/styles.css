@@ -28,11 +28,12 @@ body {
 }
 
 article {
-  background: #fefefe;
+  background: pink;
 }
 
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
+  color: darkorchid;
 }
 
 h5{
@@ -82,8 +83,8 @@ a {
   width: 100%;
   max-width: 1200px;
   padding: 40px 50px 30px;
-  background: #fefefe;
-  border-bottom: 1px solid #eaeaea;
+  background: pink;
+  border-bottom: 1px solid hotpink;
 }
 
 .box h1,
@@ -108,7 +109,7 @@ a {
 nav {
   width: 100%;
   padding: 20px;
-  border-bottom: 1px solid #eaeaea;
+  border-bottom: 1px solid #fae20b;
 }
 
 nav a {
@@ -184,7 +185,7 @@ nav a span {
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #250724;
   border-left: 1px solid #0a0a0a;
 }
 
@@ -243,7 +244,7 @@ nav a span {
 
 .projects-box h5 {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 500;
+  font-weight: 1000;
   font-size: 13px;
   letter-spacing: 2.25px;
   text-transform: uppercase;

@@ -60,7 +60,7 @@ app.use((err, req, res, next) => {
   if (err.status === 404) {
     res.status(404).render('not-found', { err });
   } else {
-    err.message = err.message || "Oh no, something isn't here";
+    err.message = err.message || "Oh no, something isn't right here";
     res.status(err.status || 500).render('error', { err });
   }
 });
