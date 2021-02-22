@@ -3,7 +3,7 @@ const express = require('express');
 const path = require('path');
 
 // Create variable to link the data.json file
-const { projects } = require('../static-express-06/data.json');
+const { projects } = require('./data.json');
 
 const app = express();
 
